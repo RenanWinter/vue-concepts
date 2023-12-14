@@ -1,0 +1,50 @@
+@import "./base.css";
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0rem;
+  font-weight: normal;
+}
+
+main {
+  padding: 2rem;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.comment {
+  color: hsla(160, 100%, 37%, 1);
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.group-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 0.4rem;
+}
+
+.table >thead > tr > th {
+  font-weight: 500;
+  text-align: left;
+  padding: 0.5rem;
+  background-color: rgb(146, 146, 204);
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
